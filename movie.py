@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("Analisis Data Film")
 
 # Baca file CSV dari lokal
-file_path = "movies.csv"  # Ganti dengan path file CSV Anda
+file_path = "movies_data.csv"  # Ganti dengan path file CSV Anda
 try:
     df = pd.read_csv(file_path)
     
